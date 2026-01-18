@@ -1,4 +1,7 @@
 // src/App.jsx
+// App.jsx में
+//import { HashRouter as Router } from 'react-router-dom';
+// NOT: import { BrowserRouter as Router } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
